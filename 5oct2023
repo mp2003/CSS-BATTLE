@@ -1,18 +1,30 @@
-<div id=one></div>
-<div id=two></div>
-<div id=three></div>
+<div class='one cont'></div>
+<div class= 'two cont'></div>
+<div class= 'three cont'></div>
 <style>
 body{
 background:#4F77FF;
   display:flex;
   align-items:center;
 }
-  #one{
+  .cont{
     height:150;
-    width:50;
     background:#fff;
-    position:absolute;
+    position:absolute
+  }
+  .one{
+    width:50;
     left:55;
     border-radius:25px
+  }
+  .two{
+    width:100;
+    left:125;
+    border-radius:50px
+  }
+  .three{
+    width:100;
+    left:245;
+    border-radius:50px
   }
 </style>
