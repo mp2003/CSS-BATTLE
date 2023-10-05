@@ -1,0 +1,61 @@
+<div class="rect left">
+  <div class="circle ">
+    <div class="icir"></div>
+  </div>
+</div>
+<div class="cent rect">
+   <div class="circle c">
+    <div class="icir ic"></div>
+  </div>
+</div>
+<div class="r rect">
+   <div class="circle ">
+    <div class="icir"></div>
+  </div>
+</div>
+<style>
+body{
+background:#62306D;
+}
+ .rect{
+background:#F7EC7D;
+   height:100;
+   width:100;
+   position:absolute;
+   bottom:0;
+ } 
+.left{
+  left:50
+}
+.cent{
+    background:#F7EC7D;
+    left:150;
+    height:200
+  }
+.r{
+  right:50;
+}
+.circle{
+  height:100;
+  width:100;
+  background:#AA445F;
+  border-radius:50%;
+  position:relative;
+  top:-50;
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+.icir{
+  height:60;
+  width:60;
+  background:#E38F66;
+  border-radius:50%;
+}
+  .c{
+background:#E38F66;
+  }
+  .ic{
+background:#AA445F}
+</style>
+
