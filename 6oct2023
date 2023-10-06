@@ -1,0 +1,26 @@
+<div class = 'rect l'></div>
+<div class = 'u rect'></div>
+<div class = 'u irect'></div>
+
+
+<style>
+body{
+background:#F0CD48;
+display:flex;
+  align-items:center;
+  justify-content:center;
+}
+  .rect{
+height:100;
+  width:200;
+  background:#66284A;
+  position:absolute;}
+  .l{
+
+    top:150;
+  }
+  .u{
+    top:50;
+    border-radius:150px 150px 0 0;
+  }
+</style>
