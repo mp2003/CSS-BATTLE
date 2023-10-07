@@ -1,6 +1,13 @@
-<div class = 'rect l'></div>
-<div class = 'u rect'></div>
-<div class = 'u irect'></div>
+<div class = 'rect l'>
+  <div class= 'irect il'><div class= 'iirect iil'></div></div>
+</div>
+<div class = 'u rect'>
+  <div class = 'u irect'>
+  <div class = 'u iirect'>
+  </div>
+  </div>
+</div>
+
 
 
 <style>
@@ -16,11 +23,35 @@ height:100;
   background:#66284A;
   position:absolute;}
   .l{
-
     top:150;
+        display :flex;
+    justify-content:center;
   }
   .u{
     top:50;
     border-radius:150px 150px 0 0;
+    display :flex;
+    justify-content:center;
+  }
+  .irect{
+    position:absolute;
+    height:60;
+    width:120;
+    background:#F0CD48;
+    top:40
+  }
+.il{
+top:0;
+}
+    .iirect{
+    position:absolute;
+    height:50;
+    width:40;
+    background:#66284A;
+    top:40
+  }
+  .iil{
+    top:10;
+    left:40
   }
 </style>
