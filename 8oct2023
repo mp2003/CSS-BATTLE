@@ -1,0 +1,44 @@
+<div class = 'ocircle'>
+  <div class = 'icircle'>
+      <div class = 'v rect'>
+      <div class = 'h rect'>
+  </div>
+</div>
+<style>
+  body{
+ background:#ED6A9D;
+    display:flex;
+    align-items:center;
+    justify-content:center
+  }
+  .ocircle{
+    height:240;
+    width:240;
+    background:#050044;
+    border-radius:50%;
+        display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .icircle{
+    height:160;
+    width:160;
+    border-radius:50%;
+    background:#ED6A9D;
+      display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+  }
+  .rect{
+     height:240;
+    background:#ED6A9D;
+    width:40;
+  }
+  .v{
+    position:absolute;
+  }
+   .h{
+     transform:rotate(90deg);
+  }
+</style>
