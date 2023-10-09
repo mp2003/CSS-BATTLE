@@ -1,0 +1,43 @@
+<div class='l rect'>
+  <div class = 'cl cir'>
+</div>
+<div class='r rect'>
+  <div class = 'cr cir'>
+</div>
+<style>
+  body{
+ background:#B5D1FB;
+    position:relative;
+    margin:0;
+  }
+.rect{
+  position:absolute;
+height:180;
+  width:60;
+  background:#8819F6;
+  border-radius:50px 50px 0 0;
+}
+.cir{
+  height:60;
+  width:60;
+  background:#230259;
+  position:absolute;
+  border-radius:50%;
+  
+}
+  .l{
+    bottom:0;
+  left:110;
+  }
+  .cl{
+  top:-90  
+  }
+  .r{
+    top:-120;
+    right:-120;
+    transform:rotate(180deg);
+  }
+  .cr{
+    top:-90
+  }
+</style>
