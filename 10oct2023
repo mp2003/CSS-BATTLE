@@ -1,0 +1,57 @@
+<div class = 'l rect '>
+  <div class = 'cl circle'>
+    <div class = 'icir'></div>
+  </div>
+</div>
+<div class = 'r rect '>
+  <div class = 'cr circle'>
+    <div class = 'icir'></div>
+  </div>
+</div>
+
+<style>
+body {
+background:#FEFAE0;
+margin:0;
+  position:relative;
+}
+.rect{
+  background:#9CCCDB;
+  height:150;
+  width:30;
+  position:absolute;
+  
+}
+  .l{
+    bottom:0;
+    left:65
+  }
+  .circle{
+    height:120;
+    width:120;
+    background:#9CCCDB;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    
+  }
+  .cl{
+    top:-60
+  }
+  .icir{
+height:60;
+    width:60;
+    background:#FEFAE0;
+    border-radius:50%;
+  }
+.r{
+  bottom:0;
+    right:65;
+  transform:rotate(180deg);
+}
+.cr{
+  top:90
+}
+</style>
