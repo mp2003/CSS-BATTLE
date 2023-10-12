@@ -1,0 +1,38 @@
+<div class = 'rect h'></div>
+<div class = 'srect tr'></div>
+<div class = 'srect bl'></div>
+
+<style>
+  body{
+background:#FEFAE3;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+  }
+  .rect{
+  height:50;
+    width:200;
+    background:#D4A469;  
+         border-radius:50px;
+
+  }
+  .srect{
+    height:50;
+    width:150;
+    background:#B17036;
+    position:absolute;
+    border-radius:50px;
+
+  }
+  .tr{
+    transform:rotate(-45deg);
+    left:77;
+    top:82
+  }
+  .bl{
+    transform:rotate(-45deg);
+    right:77;
+    bottom:82
+  }
+</style>
