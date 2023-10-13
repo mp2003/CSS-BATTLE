@@ -1,0 +1,66 @@
+<div class = ' cir l pos'>
+  <div class = 'inncir '></div>
+</div>
+<div class='rect lr'></div>
+<div class='vrect'></div>
+<div class='rect rr'></div>
+<div class = ' cir r pos'>
+  <div class = 'inncir '></div>
+</div>
+<style>
+body{
+background:#F0CD48;
+position:relative;
+  
+}
+  .pos{
+display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .cir{
+  height:120;
+    width:120;
+    background:#66284A;
+    border-radius:50%;
+  }
+  .inncir{
+    height:60;
+    width:60;
+    background:#F0CD48;
+    border-radius:50%;
+  }
+  .l{
+    position:absolute;
+    top:82;
+    left:32
+  }
+  .rect{
+    height:30;
+    width:40;
+    background:#66284A;
+  }
+  .lr{
+    position:absolute;
+    top:127;
+    left:137
+  }
+  .vrect{
+    height:320;
+    width:30;
+    background:#66284A;
+    position:absolute;
+    top:-10;
+    left:177
+  }
+   .rr{
+    position:absolute;
+    top:127;
+    right:137
+  }
+  .r{
+    position:absolute;
+    top:82;
+    right:32;
+  }
+</style>
