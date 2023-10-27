@@ -1,0 +1,55 @@
+<div class="rect tl "></div>
+<div class="rect bl "></div>
+<div class="rect tr "></div>
+<div class="rect br "></div>
+
+<style>
+body{
+  background:#222;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+  .rect {
+    width: 30px;
+    height: 100px;
+    transform:rotate(45deg);
+    position:absolute;
+    top:50;
+    left:147;
+    border-radius:0 0 0 10px;
+    background:#F2994A;
+  }
+  .bl{
+    transform:rotate(-45deg);
+    top:103;
+    left:140;
+    border-radius:10px 0 5px 0;
+    width:30;
+    height:80;
+  }
+  .tr{
+    position:absolute;
+    transform:rotate(-45deg); 
+    border-radius:5px 0 5px 0;
+    width:30;
+    height:65;
+    background:#2D9CDB;
+    top:102;
+    left:206;
+  }
+  .br{
+    position:absolute;
+    transform:rotate(225deg); 
+    border-radius:10px 0 5px 0;
+    width:30;
+    height:100;
+    background:#2D9CDB;
+    top:134;
+    left:205;
+    border-radius:0 0 0 10px;
+    
+  }
+</style>
+
